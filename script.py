@@ -68,7 +68,7 @@ def menu(balance):
                     # Then add in a function or if statement that checks if balance is too low, and then it will call addMoney
                 if drinkChoice == "2":
                     while True:
-                        cost = 1.50 
+                        cost = 4.75
                         # Check to make sure there is enough money in their balance
                         if balance >= cost:
                             balance = balance - cost
@@ -89,7 +89,7 @@ def menu(balance):
                     
                 if drinkChoice == "3":
                     while True:
-                        cost = 1.50 
+                        cost = 2.00
                         # Check to make sure there is enough money in their balance
                         if balance >= cost:
                             balance = balance - cost
